@@ -1,3 +1,2 @@
 # name|git-url|description
 transfer|git@github.com:asparks/Data-Transfer.git|rsync-based data transfer + notifications
-notify|git@github.com:asparks/Shell-Custom.git|desktop notification helper
