@@ -42,6 +42,7 @@ Unresolved, blocking implementation of the relevant component only.
 | # | Question | Status |
 |---|---|---|
 | Q2 | Secrets sync mechanism — symlinks to an untracked dir? `git-crypt`/`age`? separate private repo? | Deliberately deferred until other components are working (see D5's "Mac as hub" framing) |
+| Q3 | Uninstall path — no `shell-suite remove <name>` (or equivalent) exists yet for vendored components. `rm -rf ~/.shell-suite/<name>` works by hand, but there's no clean subcommand | Surfaced by comparing against `utils-mgr` (which has `remove`) — not blocking anything yet since nothing's installed until Phase 2 lands, but worth deciding before `install.sh` is considered "done" rather than bolting it on later |
 
 ## 5. Roadmap
 
